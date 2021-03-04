@@ -181,7 +181,7 @@ function fall() {
   }
 
 
-  function start() {
+  document.getElementById("go").onclick = function start() {
     if (!isGameOver) {
       createPlatforms()
       createDoodler()
@@ -190,5 +190,5 @@ function fall() {
       document.addEventListener('keyup', control)
     } 
   }
-  start()
+ //start();
 })
