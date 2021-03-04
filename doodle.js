@@ -188,6 +188,7 @@ function fall() {
       setInterval(movePlatforms,30)
       jump(startPoint)
       document.addEventListener('keyup', control)
+      //i need to fix this so at game over clicking start resets and starts the game again
     } 
   }
  //start();
